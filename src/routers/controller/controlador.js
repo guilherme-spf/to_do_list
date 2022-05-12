@@ -13,7 +13,7 @@ export const getIndex = async (req,res) => {
 export const postCriar = async (req, res) => {
     try {
         const { tarefa } = req.body
-        await variados.create({
+        await lista.create({
             tarefa
         })
         res.status(200).redirect('/')

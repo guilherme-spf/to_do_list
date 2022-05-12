@@ -5,6 +5,8 @@ import path from 'path'
  
 //dotenv.config()
 
+const porta = process.env.PORT || 3001
+
 const list =[
     {
         id: 1,
